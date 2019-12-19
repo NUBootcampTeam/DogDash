@@ -1,0 +1,6 @@
+zipcode was treated as string because some cells are invalid (e.g. decimal, borough)
+in postgres, put community, congressional, state senatorial as numeric because some are na and some are float and city council to varchar for
+the same reason,
+Did a minor change in the cleaned csv: change birth month, license issued/expired date variables data types to date.
+Deleted rows containing null or unreadable values in variables license issues/expired date (about 240 obs)
+Zip code and license issued date contain null in the final dataset.
