@@ -16,7 +16,7 @@
 ## Text File
 - Described the judgement call I made to clean the dataset
 ***
-### Data Overview
+### Data Summary
 - There are some problems in the cleaned csv file (mentioend in the text file). However, those problematic variables, as discussed,are not supposed to be used in any analysis. 
 - One possible issue can be some unreadable zipcode values. But if fixed coordinates of the boroughs are used for geographical analysis, zip code variable issue should not bother.
 - Essential variables (e.g. Animal Name, Gender, Birth Month, Borough, License issued/expired date) do not have missing values
