@@ -272,8 +272,8 @@ body {
 }
 
 /* Container holding the image and the text */
-.container {
-  position: relative;
+.containers {
+  position: absolute;
   text-align: center;
   color: rgb(255, 0, 0);
   font-size: xx-large;
@@ -331,4 +331,12 @@ body {
   display: table;
   clear: both;
   background-color: white;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  color: blue;
+  font-size: xx-large;
 }
