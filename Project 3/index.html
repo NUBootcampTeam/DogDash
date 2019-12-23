@@ -7,9 +7,10 @@
   <title>NYC DOGS</title>
   <link rel="stylesheet" href="Static/css/styles.css" media="screen">
   <!-- <script src=""></script>
-  <script src=""></script>
-  <script src=""></script> -->
-  <script src="bower_components/jqcloud2/dist/jqcloud.min.js"></script>
+ <!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+<!-- Load d3-cloud -->
+<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
 </head>
 
 <body>
@@ -24,7 +25,7 @@
       <div class="row">
           <div class="column" style="background-color:white;">
             <h2 class="comparison-header">&#128062 Another Visualization &#128054</h2>
-            <br>
+            <br><div id="chartdiv"><script src="Static/wordcloud4.js"></script></div>
           </div>
           <div class="column" style="background-color:white;">
             <h2 class="comparison-header">&#128062 Anotha One &#128054</h2>
