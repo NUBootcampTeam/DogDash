@@ -11,6 +11,18 @@
 <script src="https://d3js.org/d3.v4.js"></script>
 <!-- Load d3-cloud -->
 <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
+
+<link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+<script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+      $('.tooltipster').tooltipster({
+      theme: 'tooltipster-light'
+      });
+  });
+</script>
 </head>
 
 <body>
@@ -19,16 +31,16 @@
   </div>
   <div class="container">
     <div class="col-md-6">
-      <h2 class="comparison-header">&#128062 NYC Dog Map &#128054</h2>
+      <h2 class="comparison-header"><span class="tooltipster" title="Here is a map of dogs by zip code!">&#128062 NYC Dog by Zip Code &#128054</span></h2>
       <br>
     </div>
       <div class="row">
           <div class="column" style="background-color:white;">
-            <h2 class="comparison-header">&#128062 Another Visualization &#128054</h2>
+            <h2 class="comparison-header"><span class="tooltipster" title="Here are the most popular dog names in NYC!">&#128062 Most Popular Dog Names &#128054</span></h2>
             <br><div id="chartdiv"><script src="Static/wordcloud4.js"></script></div>
           </div>
           <div class="column" style="background-color:white;">
-            <h2 class="comparison-header">&#128062 Anotha One &#128054</h2>
+            <h2 class="comparison-header"><span class="tooltipster" title="Here we have data on NYC dog breeds.">&#128062 NYC Dog Breeds &#128054</span></h2>
             <br>
           </div>
         </div>
